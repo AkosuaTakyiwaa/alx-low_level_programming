@@ -1,4 +1,4 @@
-nclude "variadic_functions.h"
+#include "variadic_functions.h"
 
 /**
  * sum_them_all - a function that calculate sum of all its parameters
