@@ -9,12 +9,12 @@
  */
 size_t list_len(const list_t *h)
 {
-	size_t x = 0;
+	size_t n = 0;
 
 	while (h)
 	{
-		x++;
+		n++;
 		h = h->next;
 	}
-	return (x);
+	return (n);
 }
